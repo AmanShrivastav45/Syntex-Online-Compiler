@@ -25,5 +25,5 @@ dist-ssr
 *.sw?
 
 # Exclude fonts directory inside src
-/src/images/
-/src/fonts/
+# /src/images/
+# /src/fonts/
