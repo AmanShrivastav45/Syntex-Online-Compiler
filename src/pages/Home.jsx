@@ -118,7 +118,7 @@ const Home = () => {
             <select
               onChange={onThemeChange}
               value={theme}
-              className="h-10 text-base Geist outline-none border-solid border-2 border-gray-400 pl-2 rounded-[5px] w-[150px] mr-4"
+              className="h-10 text-base Geist outline-none border-solid border-2 border-gray-400 pl-2 rounded-[5px] w-[125px] mr-4"
             >
               {Object.keys(ThemeTemplates).map((themeName) => (
                 <option key={themeName} value={themeName.toLowerCase()}>
@@ -128,7 +128,7 @@ const Home = () => {
             </select>
             <select
               onChange={onLanguageChange}
-              className="h-10 text-base Geist outline-none border-solid border-2 border-gray-400 pl-2 rounded-[5px] w-[150px] mr-4"
+              className="h-10 text-base Geist outline-none border-solid border-2 border-gray-400 pl-2 rounded-[5px] w-[125px] mr-4"
             >
               <option value="cpp">C++ GCC17</option>
               <option value="javascript">JavaScript</option>
