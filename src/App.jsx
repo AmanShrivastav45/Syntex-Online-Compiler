@@ -5,13 +5,14 @@ import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
-    <Router>
-      <Analytics>
+    <>
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-      </Analytics>
-    </Router>
+      </Router>
+      <Analytics />
+    </>
   );
 }
 
