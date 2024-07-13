@@ -109,8 +109,9 @@ const Home = () => {
               <a
                 href="https://www.linkedin.com/in/aman-shrivastav-592110253/"
                 target="_blank"
+                title="This application is created by Aman Shrivastav"
               >
-                <img src={logo} className="h-8" />
+                <img src={logo} className="h-8" alt="LinkedIn Logo" />
               </a>
             </button>
           </div>
@@ -118,7 +119,7 @@ const Home = () => {
             <select
               onChange={onThemeChange}
               value={theme}
-              className="h-10 text-base Geist outline-none border-solid border-2 border-gray-400 pl-2 rounded-[5px] w-[125px] mr-4"
+              className="h-10 text-base Geist outline-none border-solid border-2 border-gray-400 pl-2 rounded-[5px] w-[125px] md:w-[160px] lg:w-[220px] mr-4"
             >
               {Object.keys(ThemeTemplates).map((themeName) => (
                 <option key={themeName} value={themeName.toLowerCase()}>
@@ -128,7 +129,7 @@ const Home = () => {
             </select>
             <select
               onChange={onLanguageChange}
-              className="h-10 text-base Geist outline-none border-solid border-2 border-gray-400 pl-2 rounded-[5px] w-[125px] mr-4"
+              className="h-10 text-base Geist outline-none border-solid border-2 border-gray-400 pl-2 rounded-[5px] w-[125px] md:w-[160px] lg:w-[220px] mr-4"
             >
               <option value="cpp">C++ GCC17</option>
               <option value="javascript">JavaScript</option>
